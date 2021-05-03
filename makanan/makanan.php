@@ -41,7 +41,7 @@
       <br>
       <br>
       <h1 class="text-center">Makanan Yang Berada Di Madiun</h1>
-    <div class="row ">
+    <div class="row p-5">
   <br>
       <?php
             $no=0;
