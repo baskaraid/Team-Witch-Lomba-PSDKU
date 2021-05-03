@@ -1,0 +1,48 @@
+Body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.social-media {
+    justify-content: center;
+    display: flex;
+ }
+ .social-media h2 {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-60%, -80%);
+     display: flex;
+     margin-top: -100px;
+     color: white;
+ }
+ 
+ .social-media ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+ }
+ .social-media a{
+     margin-right: 20px;
+     padding: 10px;
+     display: flex;
+     background: white;
+     border-radius: 50px;
+     text-decoration: none;
+     color: #8c8c8c;
+     cursor: pointer;
+     background: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    font-size: 50px;
+ }
+ 
+ .social-media a:hover{
+    background:rgb(255, 225, 0) ;
+    box-shadow: 6px 6px 10px -1px #ffffff;
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+ }
