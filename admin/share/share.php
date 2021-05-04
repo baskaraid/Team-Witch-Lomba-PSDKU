@@ -72,10 +72,10 @@
                         </center>
                     </td>
                     <td>
-                        <a href="Edit.php?id=<?php echo $row['admin'];?>">Edit</a>
+                        <a href="Edit.php?id=<?php echo $row['admin'];?>"class="btn btn-danger">Edit</a>
                     </td>
                     <td>
-                        <a href="Hapus.php?id=<?php echo $row['admin'];?>">Hapus</a>
+                        <a href="Hapus.php?id=<?php echo $row['admin'];?>"class="btn btn-warning">Hapus</a>
                     </td>
                 </tr>
                 <?php } ?>          
